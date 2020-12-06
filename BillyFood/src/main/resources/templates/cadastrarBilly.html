@@ -3,9 +3,94 @@
 <head>
 <link rel="stylesheet" type="text/css" href="./css/main.css">
 <meta charset="ISO-8859-1">
-<title>Pau</title>
+<title>Billy Cadastrar</title>
 </head>
 <body>
+	<header class="menu-principal container">
+		<main>
+		<div class="logo">
+			<img src="./img/logocerto.png"
+				style="margin-left: -54px; width: 300px; margin-top: -53px;">
+		</div>
+		</main>
+	</header>
+	<main>
+	<div class="buscar" style="margin-top: -136px;">
+		<input type="text" placeholder="BUSCA">
+	</div>
+	</main>
+	<div class="botao">
+		<form action="#" th:action="@{/cadastrar}" method="get">
+			<input class="b1" type="submit" th:href="@{/aluno}"
+				style="background-color: black; height: 40px; width: 32.81062%; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 0; float: right; margin-top: -10px;"
+				value="CADASTRAR">
+		</form>
+		<form action="#" th:action="@{/baixar}" method="get">
+			<input class="b2" type="submit" th:href="@{/aluno/cadastrar}"
+				style="background-color: red; height: 40px; width: 32.81062%; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 6; float: right; margin-top: -10px; margin-right: 6px;"
+				value="BAIXAR">
+		</form>
+		<form action="#" th:action="@{/billy}" method="get">
+			<input class="b3" type="submit" th:href="@{/aluno/cadastrar}"
+				style="background-color: black; height: 40px; width: 32.81062%; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 0; margin-top: -16px; margin-top: -10px;"
+				value="INICIO">
+		</form>
+	</div>
 
+	<div class="frontend">
+		<img src="./img/dog.jpg"
+			style="width: 150px; height: 150px; margin-right: 42px; margin-top: 25px;">
+	</div>
+	<div class="frontend2" style="height: 0px;">
+		<img src="./img/dog3.jpg"
+			style="width: 150px; height: 150px; margin-right: 0px; margin-top: 25px; margin-left: 29px;">
+	</div>
+	<div class="texto">
+		<h2
+			style="padding-left: 290px; font-size: 20px; font-weight: bold; font-style: normal; font-family: arial;">Cadastro
+			BillyFood App</h2>
+	</div>
+	<div class="row">
+		<div class="form-group col-md-7"
+			style="font-family: arial; margin-left: 214px;">
+			<label for="Nome" class="col-form-label">Nome</label> <input
+				type="text" class="form-control" placeholder="Nome"
+				style="width: 300px; height: 23px;">
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group col-md-8"
+			style="font-family: arial; margin-left: 218px; padding-top: 17px;">
+			<label for="titulo" class="col-form-label">Email</label> <input
+				type="text" class="form-control" placeholder="Email"
+				style="width: 300px; height: 25px;">
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group col-md-8"
+			style="font-family: arial; margin-left: 211px; padding-top: 17px;">
+			<label for="titulo" class="col-form-label">Senha</label> <input
+				type="password" class="form-control" placeholder="Senha"
+				style="width: 300px; height: 25px;">
+		</div>
+	</div>
+	<div class="botao">
+		<form action="#" th:action="@{/cadastrar}" method="get">
+			<input class="b3" type="submit" th:href="@{/aluno}"
+				style="background-color: black; height: 40px; width: 129px; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 0; float: right; margin-right: 244px;"
+				value="CANCELAR">
+		</form>
+		<form action="#" th:action="@{/cadastrar}" method="get">
+			<input class="b2" type="submit" th:href="@{/aluno/cadastrar}"
+				style="background-color: red; height: 40px; width: 129px; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 6; float: right; margin-top: 0px; margin-right: 20px;"
+				value="CADASTRAR">
+		</form>
+	</div>
+	<div class="footer">
+		<h4 style="text-align: center; margin-top: 17px;">&copy;2020
+			BillyFood / Todos os direitos reservados.</h4>
+
+	</div>
 </body>
+
 </html>
