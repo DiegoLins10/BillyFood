@@ -1,0 +1,154 @@
+.container{
+    width: 100%;
+    float: left;
+}
+body{
+    width: 60.278184%;
+    height: 1033px;
+    margin: 0 auto;
+    
+}
+.menu-principal{
+    width: 989px;
+    height: 40;
+}
+.main{
+    margin: 0 ;
+    width: 989px;
+    height: 100%;
+}
+
+.logo{
+    float: left;
+}
+.logo img{
+	padding-left: 24px;
+    padding-top: 24px;
+}
+.buscar {
+    width: 29%;
+    height: 0px;
+    float: right;
+    padding: 70px;
+    padding-right: 24px;
+}
+
+.buscar input {
+    background-image: url(../img/busca-botao.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 30px;
+    width: 83%;
+    margin-top: 10;
+    padding-left: 12px;
+    float: right;
+    border: 1px solid #c4c4c4;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #c4c4c4;
+}
+.botao{
+    height: 3.969022265246854%;
+    width: 96%;
+    padding: 2.325581395348837%;
+    padding-left: 2.426693629929221%;
+    padding-right: 1.718907987866532%;
+    float: right;
+    padding-top: 0px;
+    padding-bottom: 11px;
+}
+.botao input {
+    height: 40px;
+    width: 32.81062%;
+    padding-left: 1.011122345803842%;
+    padding-right: 1.011122%;
+    border: 1px solid #c4c4c4;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #ffffff;
+    margin: 0;
+}
+.frontend  {
+    float: right;
+    padding-right: 2.224469160768453%;
+    padding-left: 2.426693629929221%;
+}
+.frontend img{
+   width: 776px;
+   height: 199px;
+    
+}
+.pc{
+    position: none;
+    padding-left: 35.367341%;
+    padding-bottom: 23px;
+    height: 24.67138523761375%;
+    margin: 22.95247724974722%;
+    margin-left: 3.235591506572295%;
+    margin-top: 250px;
+}
+.pc img{
+    width: 115%;
+    height: auto;
+}
+.caixa1{
+    height: 422px;
+    width: 368px;
+    margin-left: 27px;
+    background-color: #f0f0f0;
+    float: left;
+    margin-top: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    color: #354348;
+    font-weight: normal;
+}
+
+
+.caixa2{
+    width: 368px;
+    height: 423px;
+    float: right;
+    background-color: #f0f0f0;
+    color: #354348;
+    margin-top: 52px;
+    margin-right: 24px;
+    font-family: arial;
+    font-size: 12px;
+}
+.footer{
+    background-color: #dddddd;
+    width: 95.14661274014156%;
+    height: 44px;
+    margin-left: 24px;
+    float: right;
+    margin-right: 24px;
+    margin-top: 25px;
+    font-family: arial;
+    font-size: 9px;
+    font-style: normal;
+    color: #6a6565;
+}
+
+@media only screen and (max-width : 894px){
+    body{
+        margin: 0 auto;
+    }
+    
+.caixa1{
+    margin-left: 5.403438%;
+}
+.caixa2{
+    margin-right: 4.403438%;
+}
+.footer{
+    margin-right: -4px;
+    width: 100%;
+}
+.botao input{
+      width: 32%; 
+}
+}

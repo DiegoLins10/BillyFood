@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<meta charset="ISO-8859-1">
+<title>Poi</title>
+</head>
+
+<body>
+	<header class="menu-principal container">
+		<main>
+		<div class="logo">
+			<img src="./img/logocerto.png"
+				style="margin-left: -54px; width: 300px; margin-top: -69px;">
+		</div>
+		</main>
+	</header>
+	<main>
+	<div class="buscar" style="margin-top: -136px;">
+		<input type="text" placeholder="BUSCA">
+	</div>
+	</main>
+	<div class="botao">
+		<form action="#" th:action="@{/cadastrar}" method="get">
+			<input class="b1" type="submit" th:href="@{/aluno}"
+				style="background-color: black; height: 40px; width: 32.81062%; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 0; float: right; margin-top: -10px;"
+				value="CADASTRAR">
+		</form>
+		<form action="#" th:action="@{/baixar}" method="get">
+			<input class="b2" type="submit" th:href="@{/aluno/cadastrar}"
+				style="background-color: red; height: 40px; width: 32.81062%; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 6; float: right; margin-top: -10px; margin-right: 6px;"
+				value="BAIXAR">
+		</form>
+		<form action="#" th:action="@{/billy}" method="get">
+			<input class="b3" type="submit" th:href="@{/aluno/cadastrar}"
+				style="background-color: black; height: 40px; width: 32.81062%; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 0; margin-top: -16px; margin-top: -10px;"
+				value="INICIO">
+		</form>
+	</div>
+
+	<div class="frontend">
+		<img src="./img/dow.png"
+			style="width: 200px; height: 200px; margin-right: 13px; margin-top: -64px;">
+	</div>
+	<div class="texto">
+		<h2
+			style="padding-left: 356px; font-size: 20px; font-weight: bold; font-style: normal; font-family: arial;">BillyFood
+			App</h2>
+	</div>
+	<div class="aa" style="width: 212px;">
+		<img src="./img/app1.png" style="width: 213px;padding-left: 50px;margin-top: -46px;">
+	</div>
+	<div class="bitext"
+		style="width: 400px;float: right;padding-right: 45px;margin-right: 45px;">
+		<p style="float: right; margin-top: -287px; font-family: arial;">Baixe
+			o BillyFood, um aplicativo desenvolvido para ajudar os animais com a
+			sua ajuda podemos melhorar o mundo!!</p>
+		<img src=" ./img/dog2.jpg"
+			style="width: 300px;height: 200px;margin-top: -233px;position: absolute; margin-left: 50px;">
+	</div>
+
+
+	<div class="footer">
+		<h4 style="text-align: center; margin-top: 17px;">&copy;2020
+			BillyFood / Todos os direitos reservados.</h4>
+
+	</div>
+</body>
+
+</html>

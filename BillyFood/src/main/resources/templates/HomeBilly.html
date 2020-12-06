@@ -1,0 +1,99 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<title>BillyFood</title>
+</head>
+
+<body>
+	<header class="menu-principal container">
+		<main>
+		<div class="logo">
+			<img src="./img/logocerto.png"
+				style="margin-left: -54px; width: 300px; margin-top: -32px;">
+		</div>
+		</main>
+	</header>
+	<main>
+	<div class="buscar">
+		<input type="text" placeholder="BUSCA">
+	</div>
+	</main>
+	<div class="botao">
+		<form action="#" th:action="@{/cadastrar}" method="get">
+			<input class="b3" type="submit" th:href="@{/aluno}"
+				style="background-color: black; height: 40px; width: 32.81062%; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 0;float: right;"
+				value="CADASTRAR"></form>
+		<form action="#" th:action="@{/baixar}" method="get">		
+				 <input class="b2" type="submit"
+				th:href="@{/aluno/cadastrar}"
+				style="background-color: red; height: 40px; width: 32.81062%; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 6;float: right;margin-top: -16px;"
+				value="BAIXAR"></form>
+		<form action="#" th:action="@{/billy}" method="get">			
+				 <input class="b3" type="submit"
+				th:href="@{/aluno/cadastrar}"
+				style="background-color: black; height: 40px; width: 32.81062%; padding-left: 1.011122345803842%; padding-right: 1.011122%; border: 1px solid #c4c4c4; font-size: 12px; font-style: normal; font-weight: bolder; color: #ffffff; margin: 0;margin-top: -16px;"
+				value="INICIO">
+		</form>
+	</div>
+
+	<div class="frontend">
+		<img src="./img/capa2.png"
+			style="width: 750px; height: 226px; margin-right: 13px;">
+	</div>
+	<!--<div class="pc">
+		<img src="./img/monitor.png">
+	</div> -->
+
+	<div class="caixa1">
+		<h2 style="padding-left: 20px; font-size: 16px; font-weight: bold">BillyFood
+			App</h2>
+		<img src="./img/fatec.jpg"
+			style="position: absolute; padding-left: 159px; margin-top: 3px; width: 194px;">
+		<p style="padding-left: 20px; padding-right: 220;">O BillyFood
+			&eacute; um projeto desenvolvido para o Projeto Integrador da Fatec
+			Ferraz de Vasconcelos, Com o intuito de desenvolver um aplicativo com
+			as habilidades adquiridas durante os semestres.</p>
+		<p style="padding-left: 20px; padding-right: 25px; padding-top: 16px">Ele
+			&eacute; um aplicativo que ir&aacute; controlar pontos de
+			alimenta&ccedil;&atilde;o de animais abandonados. O primeiro objetivo
+			da empresa &eacute; minimizar a fome desses animais, permitindo que
+			as pessoas que s&atilde;o interessadas na causa animal, possam ajudar
+			reabastecendo pontos de alimenta&ccedil;&atilde;o pela cidade.</p>
+	</div>
+
+	<div class="caixa2">
+		<h3
+			style="padding-left: 22px; font-size: 16px; font-weight: bold; font-family: Arial; float: right; padding-right: 52px; padding-top: 5px;">Sobre
+			o BillyFood</h3>
+		<img src="./img/app1.png"
+			style="position: absolute; padding-left: 10px; margin-top: -25px; padding-top: 84px; width: 150px;">
+
+		<p
+			style="padding-left: 183px; padding-right: 13px; padding-top: 42px;">&bull;
+			Encontre pontos de alimentacoes pela cidade.</p>
+		<p style="padding-left: 183px; padding-right: 13px; padding-top: 0px;">&bull;
+			Localize e abasteca pontos para ajudar animais abandonados.</p>
+		<p style="padding-left: 183px; padding-right: 13px; padding-top: 0px;">&bull;
+			Veja noticias sobre os animais.</p>
+		<p style="padding-left: 183px; padding-right: 13px; padding-top: 0px;">&bull;
+			Adote animais.</p>
+		<p style="padding-left: 183px; padding-right: 13px; padding-top: 0px;">&bull;
+			Encontre PetShops que se importam com os animais.</p>
+		<p style="padding-left: 183px; padding-right: 13px; padding-top: 0px;">&bull;
+			Se importe com a vida.</p>
+		<p style="padding-left: 183px; padding-right: 13px; padding-top: 0px;">&bull;
+			Ajude a causa animal!.</p>
+		<p style="padding-left: 183px; padding-right: 13px; padding-top: 0px;">&bull;
+			Baixe o BillyFood!!.</p>
+
+	</div>
+
+	<div class="footer">
+		<h4 style="text-align: center; margin-top: 17px;">&copy;2020
+			BillyFood / Todos os direitos reservados.</h4>
+
+	</div>
+</body>
+
+</html>
