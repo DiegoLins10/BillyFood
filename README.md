@@ -5,7 +5,7 @@
 - Diego Fernandes Lins
 
 ### Objetivo
-Este projeto tem como objetivo implementar um modulo Web para o Projeto BillyFood do Projeto Integrador da Faculdade de Tecnologia de Ferraz de Vasconcelos, onde o projeto consiste em desenvolver um aplicativo para ajudar animais abandonados.
+Este projeto tem como objetivo implementar um modulo Web  usando Spring boot Java para o Projeto BillyFood do Projeto Integrador da Faculdade de Tecnologia de Ferraz de Vasconcelos, onde o projeto consiste em desenvolver um aplicativo para ajudar animais abandonados.
 
 
 ## Amostra da página web 🔭 
